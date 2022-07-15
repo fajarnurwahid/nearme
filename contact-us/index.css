@@ -43,6 +43,9 @@
     font-weight: 600;
     margin-bottom: .5rem;
 }
+.detail-form-group {
+    margin-bottom: 1rem;
+}
 p {
     color: var(--gray-500);
 }
