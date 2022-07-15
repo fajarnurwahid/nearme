@@ -1,0 +1,49 @@
+/* start: Privacy */
+.detail-logo {
+    text-align: center;
+    margin-bottom: 1rem;
+}
+.detail-logo svg {
+    width: auto;
+    height: 1.5rem;
+}
+.detail-navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    overflow-x: auto;
+}
+.detail-navbar a {
+    padding: .5rem 1rem;
+    text-decoration: none;
+    color: var(--black);
+    background-color: var(--green);
+    width: 100%;
+    text-align: center;
+    font-weight: 500;
+    transition: .2s;
+    font-size: 1.125rem;
+    white-space: nowrap;
+}
+.detail-navbar a:hover {
+    background-color: var(--green-100);
+}
+.detail-navbar .active:hover,
+.detail-navbar .active {
+    background-color: var(--white);
+}
+.detail-body {
+    padding-top: 2rem;
+}
+.detail-group {
+    margin-bottom: 2rem;
+}
+.detail-title {
+    font-size: 1.25rem;
+    font-weight: 600;
+    margin-bottom: .5rem;
+}
+p {
+    color: var(--gray-500);
+}
+/* start: Privacy */

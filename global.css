@@ -71,6 +71,8 @@ svg {
 	--gray-200: #CCC;
 	--gray-500: #6D7280;
 	--gray-800: #1e1e1e;
+	--green: #2afd80;
+	--green-100: #00e97a;
 }
 .container {
 	max-width: 1320px;
@@ -119,13 +121,16 @@ section {
 .btn-yellow:hover {
 	background-color: var(--black);
 }
-.btn-black {
-	background-color: var(--black);
-	color: var(--white);
-	border-color: var(--black);
+.btn-green {
+	background-color: var(--green);
+	color: var(--black);
+	border-color: var(--green);
 }
-.btn-black svg {
-	fill: var(--white);
+.btn-green:hover {
+	background-color: var(--green-100);
+}
+.btn-green svg {
+	fill: var(--black);
 }
 .btn-outline-black {
 	background-color: transparent;
@@ -202,10 +207,11 @@ section {
 	display: block;
 	border-radius: 2rem;
 	width: 100%;
+	transition: .2s;
 }
 .form-control:focus {
-	border-color: var(--black);
-	box-shadow: 0 0 0 .25rem rgba(0, 0, 0, .05);
+	border-color: var(--green-100);
+	box-shadow: 0 0 0 1px var(--green-100);
 }
 textarea.form-control {
 	border-radius: .5rem;
