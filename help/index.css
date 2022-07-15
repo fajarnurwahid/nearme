@@ -25,6 +25,12 @@
     font-size: 1.125rem;
     white-space: nowrap;
 }
+.detail-navbar a:first-child {
+    border-radius: 2rem 0 0 2rem;
+}
+.detail-navbar a:last-child {
+    border-radius: 0 2rem 2rem 0;
+}
 .detail-navbar a:hover {
     background-color: var(--green-100);
 }
