@@ -59,6 +59,7 @@ footer {
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-wrap: wrap;
 }
 .footer-links a {
     margin: .5rem;
@@ -86,13 +87,5 @@ footer {
         margin-bottom: 1rem;
     }
     /* end: Header */
-
-
-
-    /* start: Footer */
-    .footer-links {
-        flex-direction: column;
-    }
-    /* start: Footer */
 }
 /* end: Breakpoints */
